@@ -4,7 +4,7 @@
              x:Class="Bottom.TabbedPage1"
             xmlns:views="clr-namespace:Bottom.Views"
             Title="WhatsApp"
-            >
+            BarBackgroundColor="#128C7E">
 
     <TabbedPage.ToolbarItems>
         <ToolbarItem Icon="search.png"/>
@@ -13,26 +13,10 @@
     
 
     <TabbedPage.Children>
-        <NavigationPage>
-            <x:Arguments>
-                <views:Page1 Icon="camera.png"/>
-            </x:Arguments>
-        </NavigationPage>
-        <NavigationPage Title="CHATS" BackgroundColor="Transparent">
-            <x:Arguments>
-                <views:Page2 />
-            </x:Arguments>
-        </NavigationPage>
-        <NavigationPage Title="STATUS" BackgroundColor="Transparent">
-            <x:Arguments>
-                <views:Page3 />
-            </x:Arguments>
-        </NavigationPage>
-        <NavigationPage Title="CALLS" >
-            <x:Arguments>
-                <views:Page4 />
-            </x:Arguments>
-        </NavigationPage>
+                <views:Page1 Icon="pcamera.png" />
+                <views:Page2 Title="CHAT" />
+                <views:Page3 Title="STATUS" />
+                <views:Page4 Title="CALLS"/>
     </TabbedPage.Children>
 
 </TabbedPage>

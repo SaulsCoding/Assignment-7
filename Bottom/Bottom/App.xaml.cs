@@ -10,7 +10,10 @@ namespace Bottom
         {
             InitializeComponent();
 
-            MainPage = new TabbedPage1();
+            var navPage = new NavigationPage(new TabbedPage1());
+            navPage.BarBackgroundColor = Color.FromHex("128C7E");
+
+            MainPage = navPage; 
         }
 
         protected override void OnStart()
