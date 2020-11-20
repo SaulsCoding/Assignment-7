@@ -4,10 +4,9 @@
              x:Class="Bottom.Views.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Button 
-                Text="Camera"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"/>
+
+
+            <ImageButton Source="Screenshot_20201120_141733.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

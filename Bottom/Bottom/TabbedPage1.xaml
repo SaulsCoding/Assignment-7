@@ -14,7 +14,7 @@
 
     <TabbedPage.Children>
                 <views:Page1 Icon="pcamera.png" />
-                <views:Page2 Title="CHAT" />
+                <views:Page2 Title="CHATS" />
                 <views:Page3 Title="STATUS" />
                 <views:Page4 Title="CALLS"/>
     </TabbedPage.Children>
