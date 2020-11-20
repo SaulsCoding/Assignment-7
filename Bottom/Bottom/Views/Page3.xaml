@@ -19,10 +19,21 @@
                     <ColumnDefinition Width="35"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="dpss.png" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3"  BackgroundColor="White" Margin="0,0,0,36"/>
+                <Frame Padding="0"
+                       Margin="0,15,0,0"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="StartAndExpand"
+                    CornerRadius="60"
+                    IsClippedToBounds="True"
+                    HeightRequest="65"
+                    WidthRequest="55"
+                    >
+                    <Image Source="dpss.png" Grid.Row="0" Grid.Column="0" VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand"/>
+                </Frame>
                 <Label Text="My status" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="18" Padding="0,23,0,0"/>
                 <Label Text="Yesterday, 14:18" TextColor="Gray" Grid.Row="0" Grid.Column="1" FontSize="16" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="0,0,100,0"></Label>
-                <ImageButton Source="more.png" Grid.Row="0" Grid.Column="2" BackgroundColor="White"/>
+                <ImageButton Source="more.png" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HeightRequest="30"/>
             </Grid>
             <Label Text="Viewed updates" TextColor="Black" BackgroundColor="WhiteSmoke" HorizontalTextAlignment="Start" Padding="9" Margin="0,-40,0,0"/>
         </StackLayout>
