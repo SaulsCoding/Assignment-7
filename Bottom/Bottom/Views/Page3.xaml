@@ -8,24 +8,23 @@
         <StackLayout BackgroundColor="White">
             <Grid >
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="60"></RowDefinition>
-                    <RowDefinition Height="60"></RowDefinition>
-                    <RowDefinition Height="60*"></RowDefinition>
+                    <RowDefinition Height="120"></RowDefinition>
+                    
                     
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="4*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="60"></ColumnDefinition>
+                    <ColumnDefinition Width="260"></ColumnDefinition>
+                    <ColumnDefinition Width="35"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Image Source="dpss.png" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3"  BackgroundColor="White"/>
-                <Label Text="My status" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="18"/>
+                <Image Source="dpss.png" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3"  BackgroundColor="White" Margin="0,0,0,36"/>
+                <Label Text="My status" Grid.Row="0" Grid.Column="1" TextColor="Black" FontSize="18" Padding="0,23,0,0"/>
                 <Label Text="Yesterday, 14:18" TextColor="Gray" Grid.Row="0" Grid.Column="1" FontSize="16" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="0,0,100,0"></Label>
                 <ImageButton Source="more.png" Grid.Row="0" Grid.Column="2" BackgroundColor="White"/>
             </Grid>
-            <Label Text="Viewed updates" TextColor="Black" BackgroundColor="LightGray" HorizontalTextAlignment="Start" Padding="9" Margin="0,-40,0,0"/>
+            <Label Text="Viewed updates" TextColor="Black" BackgroundColor="WhiteSmoke" HorizontalTextAlignment="Start" Padding="9" Margin="0,-40,0,0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

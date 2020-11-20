@@ -7,22 +7,22 @@
 
         <Grid BackgroundColor="White">
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.2*"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
+                <RowDefinition Height="54"></RowDefinition>
                 
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.2*"></ColumnDefinition>
-                <ColumnDefinition Width="0.6*"></ColumnDefinition>
-                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition Width="83"></ColumnDefinition>
+                <ColumnDefinition Width="230"></ColumnDefinition>
+                <ColumnDefinition Width="83"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
         
