@@ -6,7 +6,7 @@
         <StackLayout>
 
 
-            <ImageButton Source="Screenshot_20201120_141733.jpg"/>
+            <ImageButton Source="Screenshot_20201120_141733.jpg" HeightRequest="580"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
